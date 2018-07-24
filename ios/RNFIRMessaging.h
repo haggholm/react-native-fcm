@@ -1,13 +1,13 @@
 
 #import <UIKit/UIKit.h>
 
-#if __has_include(<Firebase.h>)
+// #if __has_include(<Firebase.h>)
 #import <FirebaseCore/FirebaseCore.h>
 #import <FirebaseMessaging/FirebaseMessaging.h>
 #import <FirebaseInstanceID/FirebaseInstanceID.h>
-#else
-@import Firebase;
-#endif
+// #else
+// @import Firebase;
+// #endif
 
 #import <React/RCTEventEmitter.h>
 
